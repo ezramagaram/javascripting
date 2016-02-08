@@ -25,5 +25,6 @@
 var pets = ['cat', 'dog', 'rat'];
 for(var i = 0; i < 3; i++){
 	pets[i]+= 's';
+	console.log(pets[i]);
 }
-console.log(pets[]);
+
